@@ -16,7 +16,9 @@ namespace Noesis.Javascript.Tests
             for (int i = 0; i < 20; i++) {
                 MemoryUsageLoadInstance();
             }
-            JavascriptContext.Collect();
+           
+            //TODO?
+            //JavascriptContext.Collect();
             GC.Collect();
             GC.Collect();
             decimal diffMBytes = (Process.GetCurrentProcess().PrivateMemorySize64 - mem) / 1048576m;

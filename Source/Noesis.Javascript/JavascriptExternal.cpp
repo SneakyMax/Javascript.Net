@@ -120,7 +120,7 @@ JavascriptExternal::GetMethod(wstring iName)
 	}
 	
 	// Wasn't an method
-	return  Handle<Function>();
+	return Handle<Function>();
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -53,7 +53,8 @@ JavascriptContext::JavascriptContext()
 	v8::Locker v8ThreadLock(isolate);
 	v8::Isolate::Scope isolate_scope(isolate);
 	mExternals = new vector<JavascriptExternal*>();
-	mContext = new Persistent<Context>(Context::New());
+	v8::HandleScope handleScope(isolate);
+	mContext = new Persistent<Context>(isolate, Context::New(isolate));
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
