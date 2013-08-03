@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noesis.Javascript.Tests.VS2010", "Tests\Noesis.Javascript.Tests\Noesis.Javascript.Tests.VS2010.csproj", "{3594F612-97BB-41C2-90A1-867E78812F4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javascript.Net.Tests", "Javascript.Net.Tests\Javascript.Net.Tests.VS2010.csproj", "{3594F612-97BB-41C2-90A1-867E78812F4E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Noesis.Javascript", "Source\Noesis.Javascript\Noesis.Javascript.VS2010.vcxproj", "{AF1D460B-D372-40F7-8DDB-3F6EE4489EB4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Javascript.Net", "Javascript.Net\Javascript.Net.VS2010.vcxproj", "{AF1D460B-D372-40F7-8DDB-3F6EE4489EB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
