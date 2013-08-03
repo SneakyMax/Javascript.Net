@@ -71,7 +71,8 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS2010\$(Platform)\$(Configuration)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-    <LinkKeyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">key.snk</LinkKeyFile>
+    <LinkKeyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    </LinkKeyFile>
     <LinkKeyFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">key.snk</LinkKeyFile>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\VS2010\$(Configuration)\</OutDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Platform)\VS2010\$(Configuration)\</OutDir>
@@ -189,9 +190,6 @@
     <ClInclude Include="JavascriptExternal.h" />
     <ClInclude Include="JavascriptInterop.h" />
     <ClInclude Include="SystemInterop.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="key.snk" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

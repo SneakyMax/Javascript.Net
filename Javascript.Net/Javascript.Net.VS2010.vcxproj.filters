@@ -40,7 +40,4 @@
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="key.snk" />
-  </ItemGroup>
 </Project>
